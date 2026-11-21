@@ -1,2 +1,15 @@
-.env
+# Dependencies
 node_modules/
+
+# Next.js build output
+.next/
+out/
+build/
+
+# Secrets: never commit these
+.env*
+
+# Vercel and TypeScript cache files
+.vercel
+*.tsbuildinfo
+next-env.d.ts
